@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class LancorAdventures extends ApplicationAdapter {
+public class TicTacToe extends ApplicationAdapter {
 	SpriteBatch batch;
 	Texture board, cross, dot, caret;
 	boolean currentPlayer = true;
@@ -84,7 +84,7 @@ public class LancorAdventures extends ApplicationAdapter {
 				}
 			}
 			if(board_state[4] == currentPlayerId){
-				if(board_state[9] == currentPlayerId){
+				if(board_state[7] == currentPlayerId){
 					Gdx.app.exit();
 				}
 			}
